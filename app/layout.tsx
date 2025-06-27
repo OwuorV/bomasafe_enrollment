@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Public_Sans } from "next/font/google";
 import "./globals.css";
+import NavBar from "./(enrollment)/navbar";
 
 const public_Sans = Public_Sans({
   variable: "--font-public-sans",
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${public_Sans.variable} antialiased w-full `}>
+        <NavBar />
         {children}
       </body>
     </html>

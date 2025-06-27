@@ -39,13 +39,13 @@ export default function NavBar() {
         </div>
         <div className="NavLinks flex items-center gap-[36px] ">
           <div className="ul flex items-center gap-[32px]">
-            <ul className="flex gap-[36px] text-black font-500 text-[#0D141C]">
+            <ul className="hidden md:flex gap-[36px] text-black font-500 text-[#0D141C]">
               <li>Home</li>
               <li>Courses</li>
               <li>Instructors</li>
               <li>About Us</li>
             </ul>
-            <span className="h-[40px] w-[84px] bg-[#E8EDF2] flex items-center justify-center rounded-[20px] text-black p-[16px]">
+            <span className="h-[40px] hidden md:flex  w-[84px] bg-[#E8EDF2] flex items-center justify-center rounded-[20px] text-black p-[16px]">
               Login
             </span>
             <div className="userProfile overflow-hidden h-[40px] w-[40px]">

@@ -31,7 +31,7 @@ export default function Enrollment() {
   return (
     <>
       <main className="w-full h-full flex flex-col items-center py-[20px]">
-        <div className="coursepage md:max-w-[75%] md:w-[960px] w-[75%]">
+        <div className="coursepage md:max-w-[75%] md:w-[960px] w-full">
           <div className="heading flex flex-col">
             <h1 className=" md:text-[32px] p-[16px] font-bold text-[#088738]">
               Enroll in Course
@@ -42,7 +42,7 @@ export default function Enrollment() {
           </div>
           <div className="details w-full flex flex-col p-[16px] gap-[24px]">
             <div className="w-[97%] flex gap-[24px]  h-[71px] py-[20px] border-t-solid border-t border-t-[1px] border-t-[#E5E8EB] ">
-              <div className="flex gap-[159px]">
+              <div className="flex gap-[100px] md:gap-[159px]">
                 <p className="text-[#4F7396] text-[14px] font-[400] leading-[21px]">
                   Course Name
                 </p>
@@ -61,7 +61,7 @@ export default function Enrollment() {
               </div>
             </div>
             <div className="w-[97%] flex gap-[24px]  h-[71px] py-[20px] border-t-solid border-t border-t-[1px] border-t-[#E5E8EB] ">
-              <div className="flex gap-[183px]">
+              <div className="flex gap-[100px] md:gap-[183px]">
                 <p className="text-[#4F7396] text-[14px] font-[400] leading-[21px]">
                   Instructor
                 </p>
@@ -80,7 +80,7 @@ export default function Enrollment() {
               </div>
             </div>
             <div className="w-[97%] flex gap-[24px]  h-[71px] py-[20px] border-t-solid border-t border-t-[1px] border-t-[#E5E8EB] ">
-              <div className="flex gap-[191px]">
+              <div className="flex gap-[100px] md:gap-[191px]">
                 <p className="text-[#4F7396] text-[14px] font-[400] leading-[21px]">
                   Duration
                 </p>
@@ -99,7 +99,7 @@ export default function Enrollment() {
               </div>
             </div>
             <div className="w-[97%] flex gap-[24px]  h-[71px] py-[20px] border-t-solid border-t border-t-[1px] border-t-[#E5E8EB] ">
-              <div className="flex gap-[179px]">
+              <div className="flex gap-[100px] md:gap-[179px]">
                 <p className="text-[#4F7396] text-[14px] font-[400] leading-[21px]">
                   Skill Level
                 </p>
@@ -248,7 +248,7 @@ export default function Enrollment() {
           <div className="confirmEnrollment px-[16px] py-[12px] w-full">
             <button
               onClick={Nextpage}
-              className=" cursor-pointer bg-[#07743D] rounded-[24px] px-[20px] min-w-[84px] max-w-[480px] md:w-[480px] h-[48px] text-[16px] font-[600] leading-[24px] text-[#F7FAFC] "
+              className=" cursor-pointer bg-[#07743D] w-full rounded-[24px] px-[20px] min-w-[84px] max-w-[480px] md:w-[480px] h-[48px] text-[16px] font-[600] leading-[24px] text-[#F7FAFC] "
             >
               Confirm Enrollment
             </button>
