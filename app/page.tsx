@@ -33,7 +33,7 @@ export default function Enrollment() {
       <main className="w-full h-full flex flex-col items-center py-[20px]">
         <div className="coursepage md:max-w-[75%] md:w-[960px] w-full">
           <div className="heading flex flex-col">
-            <h1 className=" md:text-[32px] p-[16px] font-bold text-[#088738]">
+            <h1 className="text-2xl md:text-[32px] p-[16px] font-bold text-[#088738]">
               Enroll in Course
             </h1>
             <h2 className="text-black text-[18px] font-[600] w-full  px-[16px] pt-[16px] pb-[8px] ">
